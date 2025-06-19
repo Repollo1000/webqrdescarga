@@ -2,14 +2,9 @@
 
 import Image from "next/image";
 
-export default function Home() {
+export default function Descarga() {
   const handleDescargar = () => {
-    const link = document.createElement("a");
-    link.href = "https://pixeldrain.com/api/file/poRhhGUV?download"; // Usa tu link final
-    link.download = "muevete_valparaiso.apk";
-    document.body.appendChild(link);
-    link.click();
-    document.body.removeChild(link);
+    window.location.href = "https://pixeldrain.com/api/file/poRhhGUV?download"; // Reemplaza por tu URL real
   };
 
   return (
