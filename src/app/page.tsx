@@ -25,7 +25,7 @@ export default function Home() {
         ¿Quieres descargar la imagen de prueba?
       </h1>
       <p className="text-gray-600 mt-3">
-        Presiona el botón para aceptar y comenzar la descarga de <code>prueba.png</code>.
+        Presiona el botón para aceptar y comenzar la descarga de la aplicación.
       </p>
       <button
         onClick={handleDescargar}
