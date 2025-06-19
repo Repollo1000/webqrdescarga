@@ -5,8 +5,8 @@ import Image from "next/image";
 export default function Home() {
   const handleDescargar = () => {
     const link = document.createElement("a");
-    link.href = "/prueba.png"; // Enlace relativo al archivo en /public
-    link.download = "prueba.png"; // Nombre del archivo descargado
+    link.href = "/muevete_valparaiso.apk";
+    link.download = "muevete_valparaiso.apk";// Nombre del archivo descargado
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
